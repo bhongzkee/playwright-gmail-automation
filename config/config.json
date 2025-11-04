@@ -1,0 +1,27 @@
+{
+  "validUser": {
+    "username": "env:GMAIL_USERNAME",
+    "password": "env:GMAIL_PASSWORD"
+  },
+  "invalidUser": {
+    "username": "invalid.user@gmail.com",
+    "password": "wrongpassword"
+  },
+  "emails": [
+    {
+      "recipient": "recipient1@example.com",
+      "subject": "Playwright Automation Test 1",
+      "body": "This is the first test email from Playwright."
+    },
+    {
+      "recipient": "recipient2@example.com",
+      "subject": "Playwright Automation Test 2",
+      "body": "This is the second test email."
+    },
+    {
+      "recipient": "recipient3@example.com",
+      "subject": "Playwright Automation Test 3",
+      "body": "Third email test message."
+    }
+  ]
+}

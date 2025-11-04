@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+
+# # Playwright test results and reports
+# test-results/
+# playwright-report/
+# videos/
+# traces/
+
+# Environment variables
+.env
+
+# Logs and temp files
+*.log
+.DS_Store
